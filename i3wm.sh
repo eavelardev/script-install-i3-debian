@@ -3,6 +3,4 @@ apt-get install --assume-yes sudo xorg i3 terminator git nodm zsh build-essentia
 adduser user sudo
 sed -i s/=false/=true/g /etc/default/nodm
 sed -i s/=root/=user/g /etc/default/nodm
-sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-exit
 reboot
