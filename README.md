@@ -12,7 +12,7 @@ sh -c "$(wget http://bit.ly/1Ncbyek -O -)"
 or
 sh -c "$(wget https://raw.github.com/avelardev/script-install-i3-debian/master/i3wm.sh -O -)"
 
-after restart go to Virtualbox Devices and selelect Insert Guest Addition and write next.
+after restart go to Virtualbox Devices and selelect Insert Guest Addition and write next. 
 `mount /media/cdrom`  
 `sudo sh /media/cdrom/VBoxLinuxAdditions.run`  
 `reboot` 
