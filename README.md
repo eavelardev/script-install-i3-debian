@@ -17,6 +17,7 @@ after restart go to Virtualbox Devices and selelect Insert Guest Addition and wr
 `m-a prepare`
   `mount /media/cdrom`   
   `sudo sh /media/cdrom/VBoxLinuxAdditions.run`    
+  `sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
   `reboot`   
 
-`sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
+
