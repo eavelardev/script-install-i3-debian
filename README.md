@@ -3,6 +3,7 @@ script to install i3 tiling windows manager Debian minimal VirtualBox
 
 This script work with user name 'user', with other user fork repo and edit this lines
  `adduser user sudo`  
+ `sed -i s/=false/=true/g /etc/default/nodm`
  `sed -i s/=root/=user/g /etc/default/nodm` 
 
 or install manually the commands contents in the script
