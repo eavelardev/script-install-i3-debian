@@ -8,9 +8,9 @@ This script work with user name 'user', with other user fork repo and edit this 
 or install manually the commands contents in the script
 
 Install with user name 'user':  
-sh -c "$(wget http://bit.ly/1Ncbyek -O -)"
+`sh -c "$(wget http://bit.ly/1Ncbyek -O -)"`
 or
-sh -c "$(wget https://raw.github.com/avelardev/script-install-i3-debian/master/i3wm.sh -O -)"
+`sh -c "$(wget https://raw.github.com/avelardev/script-install-i3-debian/master/i3wm.sh -O -)"`
 
 after restart go to Virtualbox Devices and selelect Insert Guest Addition and write next. 
   `mount /media/cdrom`   
