@@ -5,6 +5,8 @@ This script work with user name 'user', with other user fork repo and edit this 
   adduser user sudo
   sed -i s/=root/=user/g /etc/default/nodm
 
+or install manually the commands
+
 Install in this case with:  
 sh -c "$(wget http://bit.ly/1Ncbyek -O -)"
 or
